@@ -1,0 +1,238 @@
+/*main css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+  background: #fff;
+  font-family: 'Merriweather', sans-serif;
+}
+.top-header{
+	margin-left:10px;
+	margin-right: 10px; 
+}
+
+.logo{
+	padding: 5px;
+}
+.top-menu{
+    float: right;
+	padding: 10px;
+	margin-top:20px;
+	margin-right: 20px;  
+}
+.barbutton{
+	margin-right: 5px;
+}
+.mainMenu{
+	background-color: #007bff;
+	/*height: 50px;*/
+	/*color: #fff;*/
+}
+.heading{
+	
+	padding: 5px 0px 5px 0px;
+	margin:10px 0px 10px 33px;
+	font-size: 35px;
+	font-weight: 800;
+	border-color: #0000ff;
+	border-bottom-style: ridge;
+}
+.banner{
+	background-image: url(../image/backimage.png);
+	height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*margin-top: 110px*/
+}
+.banner h3{
+	
+	margin-top: 70px;
+	color: #fff;
+	text-align: center;
+}
+.loginbody{
+	margin: 35;
+}
+.loginbody form{
+padding: 33px;
+    width: 70%;
+    margin:33px;
+ background-color: #f5f5f5;
+}
+
+.store{
+	padding: 20px;
+	/*margin: 20px;*/
+}
+.card{
+	border: 1px solid #0000ff;
+	/*padding-bottom: 32px;*/
+	margin: 10px;
+
+}
+.allcart{
+    padding: 2px;
+	margin: 5px;
+	align-items: center;
+	border-color: #7d85e8;
+}
+.allbook{
+    padding: 5px 9px 5px 9px;
+	margin:10px 0px 10px 27px;
+	float: right;
+	border-color: #7d85e8;
+}
+.Cdetail{
+    text-align: center;
+    }
+    .totalc{
+    	totalc
+        background-color: #eae7e7;
+}
+.Checkout{
+	 padding: 33px;
+    width: 70%;
+    margin-top:33px;
+ background-color: #f5f5f5;
+ float: right;
+}
+.total{
+	background-color: #f5f5f5;
+   width: 100%;
+   margin-top:33px;
+   padding: 33px;
+   border-radius: 10px;
+     }
+.about{
+	padding: 30px 0 0 0;
+}
+.about p{
+	padding: 0 20px 0 20px;
+}
+.about h4{
+	padding: 0 20px 0 20px;
+}
+.add_card button{
+	padding:7px;
+}
+.tcart button{
+	padding:9px;
+}
+
+.address{
+	padding: 12px;
+    text-align: center;
+}
+.contactrorm h3{
+	    margin: 10px;
+	    padding: 12px;
+	    text-align: center;
+
+}
+.uscontact{ 
+	/*border: 1px solid #dee2e6 !important;*/
+    padding: 33px;
+    width: 70%;
+
+    background-color: #f5f5f5;
+}
+ .footer{
+   /*padding: 34px;*/
+   background-color: #264465;
+   height: auto;
+   color: #fff;
+   /*text-align: center;*/
+}
+
+.footer-menu{
+	text-align: center;
+	color: #fff;
+	margin: 20px;
+	padding: 20px;
+}
+.footer-menu h5{
+	color: #fff;
+	font-size:20px;
+    border-width:3px;
+}
+.footer-menu .vertical-menu a{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+  font-size:12px;
+  border-width:3px;
+	
+}
+.copyright{
+/*border-top:1px solid #fff;*/
+   background-color: #000;
+   display: flex;
+
+}
+
+ .copyright  .title{
+   	font-size: 12px;
+   	color: #fff;
+   	margin: 10px;
+   
+   }
+
+ .copyright .iconsstyle{
+ 	float: right;
+ 	margin: 10px;
+
+ }
+
+  .copyright .iconsstyle i{
+ 		padding: 8px;
+ 		color: #fff;
+ 	}
+
+.copyright img{
+	float: right;
+
+}
+.loginbody{
+	margin: 20px;
+}
+.loginbody form{
+	    padding: 5px 30px 5px 30px;
+    background-color: #efeaea;
+	    margin: 0px 50px 0 50px;
+
+}
+
+ .contact-form{
+    width: 50%;
+    text-align: center;
+    padding: 13px;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+
+
+
+
